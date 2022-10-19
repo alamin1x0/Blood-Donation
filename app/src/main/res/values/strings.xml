@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Blood App</string>
+
+    <string-array name="Blood">
+        <item>Select Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </string-array>
+
+    <string-array name="Division">
+        <item>Select Division</item>
+        <item>Dhaka</item>
+        <item>Rajshahi</item>
+        <item>Barisal</item>
+        <item>Chittagong</item>
+        <item>Rangpur</item>
+        <item>Sylhet</item>
+        <item>Khulna</item>
+        <item>Mymensingh</item>
+
+    </string-array>
+
+    <string-array name="Districts">
+        <item>Select Districts</item>
+        <item>Dhaka</item>
+        <item>Faridpur</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Jamalpur</item>
+        <item>Kishoreganj</item>
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Mymensingh</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Netrokona</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Sherpur</item>
+        <item>Tangail</item>
+        <item>Bogra</item>
+        <item>Joypurhat</item>
+        <item>Naogaon</item>
+        <item>Natore</item>
+        <item>Nawabganj</item>
+        <item>Pabna</item>
+        <item>Rajshahi</item>
+        <item>Sirajgonj</item>
+        <item>Dinajpur</item>
+        <item>Gaibandha</item>
+        <item>Kurigram</item>
+        <item>Lalmonirhat</item>
+        <item>Nilphamari</item>
+        <item>Panchagarh</item>
+        <item>Rangpur</item>
+        <item>Thakurgaon</item>
+        <item>Barguna</item>
+        <item>Barisal</item>
+        <item>Bhola</item>
+        <item>Jhalokati</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Bandarban</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chittagong</item>
+        <item>Comilla</item>
+        <item>Coxs Bazar</item>
+        <item>Feni</item>
+        <item>Khagrachari</item>
+        <item>Lakshmipur</item>
+        <item>Noakhali</item>
+        <item>Rangamati</item>
+        <item>Habiganj</item>
+        <item>Maulvibazar</item>
+        <item>Sunamganj</item>
+        <item>Sylhet</item>
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jessore</item>
+        <item>Jhenaidah</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Narail</item>
+        <item>Satkhira</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+</resources>
