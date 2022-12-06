@@ -47,14 +47,14 @@ class Useradapter(val context: HomeFragment, var list: ArrayList<UserModel>) :
             context.startActivity(intent)
         }
 
-      // setAnimation(holder.binding.root)
+       setAnimation(holder.binding.root)
 
     }
 
-//    fun setAnimation(view: View) {
-//        val animation: Animation = AnimationUtils.loadAnimation(context, android.R.anim.slide_in_left)
-//        view.animation = animation
-//    }
+    fun setAnimation(view: View) {
+        val animation: Animation = AnimationUtils.loadAnimation(context.requireContext(), android.R.anim.slide_in_left)
+        view.animation = animation
+    }
 
     override fun getItemCount() = list.size
 }

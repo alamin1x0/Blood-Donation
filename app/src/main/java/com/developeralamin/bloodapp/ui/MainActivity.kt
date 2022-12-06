@@ -15,6 +15,7 @@ import androidx.navigation.NavDestination
 import androidx.navigation.fragment.findNavController
 import com.developeralamin.bloodapp.R
 import com.developeralamin.bloodapp.databinding.ActivityMainBinding
+import com.developeralamin.bloodapp.ui.auth.LocationActivity
 import com.developeralamin.bloodapp.ui.auth.LoginActivity
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
@@ -107,11 +108,15 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
 
             R.id.location -> {
-                val intent = Intent(Intent.ACTION_VIEW)
-                intent.data = Uri.parse("geo:0,0?q=Dhaka")
-                val chooser = Intent.createChooser(intent, "Lauch Maps")
-                startActivity(chooser)
+                startActivity(Intent(this, LocationActivity::class.java))
             }
+
+//            R.id.location -> {
+//                val intent = Intent(Intent.ACTION_VIEW)
+//                intent.data = Uri.parse("geo:0,0?q=Dhaka")
+//                val chooser = Intent.createChooser(intent, "Lauch Maps")
+//                startActivity(chooser)
+//            }
 
             R.id.logout -> {
                 auth.signOut()

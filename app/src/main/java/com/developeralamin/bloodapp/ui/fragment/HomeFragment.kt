@@ -46,7 +46,7 @@ class HomeFragment : Fragment() {
             binding.userRecyclerView.adapter = Useradapter(this, list)
             adapter.updateData(list)
 
-           //adapter.updateData(list)
+           adapter.updateData(list)
 
             Config.hideDialog()
         }
